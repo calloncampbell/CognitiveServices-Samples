@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CoginitiveServices.FaceAPI.Detection"
         mc:Ignorable="d"
-        Title="Cognitive Services - Face API Detection" Height="350" Width="525">
+        Title="Cognitive Services - Face API Detection" Height="600" Width="800">
     <Grid x:Name="BackPanel">
         <Image x:Name="FacePhoto" Stretch="Uniform" Margin="0,0,0,30" MouseMove="FacePhoto_MouseMove"/>
         <DockPanel DockPanel.Dock="Bottom">
             <Button x:Name="BrowseButton" Width="72" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Left"
-                    Content="Browse..."
+                    Content="Browse"
                     Click="BrowseButton_Click" />
             <StatusBar VerticalAlignment="Bottom">
                 <StatusBarItem>

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CognitiveServices.FaceAPI.Verification"
         mc:Ignorable="d"
-        Title="Cognitive Services - Face API Verification" Height="350" Width="525">
+        Title="Cognitive Services - Face API Verification" Height="600" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition />
@@ -16,14 +16,14 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <Image x:Name="FaceIdentificationPhoto" Grid.Column="0" Stretch="Uniform" Margin="0,0,0,30" MouseMove="FaceIdentificationPhoto_MouseMove"/>
+        <Image x:Name="FaceIdentificationPhoto" Grid.Column="0" Stretch="Uniform" Margin="0,0,0,30" />
         <Button x:Name="BrowseButtonIdentification" Grid.Column="0" Width="72" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Left"
-                    Content="Browse..."
+                    Content="Browse"
                     Click="BrowseButtonIdentification_Click" />
 
-        <Image x:Name="FaceVerificationPhoto" Grid.Column="1" Stretch="Uniform" Margin="0,0,0,30" MouseMove="FaceVerificationPhoto_MouseMove"/>
+        <Image x:Name="FaceVerificationPhoto" Grid.Column="1" Stretch="Uniform" Margin="0,0,0,30" />
         <Button x:Name="BrowseButtonVerification" Grid.Column="1" Width="72" Height="20" VerticalAlignment="Bottom" HorizontalAlignment="Left"
-                    Content="Browse..."
+                    Content="Browse"
                     Click="BrowseButtonVerification_Click" />
 
         <StatusBar Grid.ColumnSpan="2" Grid.Row="1" VerticalAlignment="Bottom">
