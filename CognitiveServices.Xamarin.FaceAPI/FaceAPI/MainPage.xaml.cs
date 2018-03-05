@@ -109,9 +109,10 @@ namespace FaceAPI
                     returnFaceLandmarks: false,
                     returnFaceAttributes: faceAttributes);
 
-                //var faceAttributes = faces[0]?.FaceAttributes;
                 if (faces.Length == 0)
+                {
                     return null;
+                }
 
                 var emotion = faces[0].FaceAttributes.Emotion.ToRankedList();
                 FaceDetection theData = new FaceDetection()
