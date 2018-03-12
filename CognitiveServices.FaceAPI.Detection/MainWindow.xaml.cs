@@ -29,8 +29,8 @@ namespace CoginitiveServices.FaceAPI.Detection
         double imageResizeFactor;
 
         private readonly IFaceServiceClient faceServiceClient = new FaceServiceClient(
-            "496b22058ec24307bbd09b0654f5fa03", 
-            "https://westus.api.cognitive.microsoft.com/face/v1.0");
+            "YOUR-SUBSCRIPTION-KEY-GOES-HERE",
+            "YOUR-SUBSCRIPTION-ENDPOINT-URL-GOES-HERE");
 
         /// <summary>
         /// Initializes a new instance of the <see cref="MainWindow"/> class.

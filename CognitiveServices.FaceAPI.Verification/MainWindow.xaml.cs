@@ -27,8 +27,8 @@ namespace CognitiveServices.FaceAPI.Verification
         double imageResizeFactor;
 
         private readonly IFaceServiceClient faceServiceClient = new FaceServiceClient(
-            "496b22058ec24307bbd09b0654f5fa03",
-            "https://westus.api.cognitive.microsoft.com/face/v1.0");
+            "YOUR-SUBSCRIPTION-KEY-GOES-HERE",
+            "YOUR-SUBSCRIPTION-ENDPOINT-URL-GOES-HERE");
 
         public MainWindow()
         {
